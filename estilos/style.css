@@ -14,6 +14,17 @@
     margin: 0px;
 }
 
+section#capa {
+    background-image: url(../imagens/kiss.jpg);
+    background-size: 800px;
+    background-position: center center;
+    background-attachment: scroll;
+    max-width: 800px;
+    margin: auto;
+    height: 200px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+
 header {
     background-color: black;
     color: white;
@@ -25,16 +36,19 @@ header > p {
     margin: auto;
     text-align: center;
     padding: 10px;
+    text-indent: 0px;
 }
 
 header > p > a {
     text-decoration: none;
     color: white;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 header > p > a:hover {
     text-decoration: underline;
+    color: #747660;
+    transition-duration: 0.5s;
 }
 
 header > h1 {
@@ -48,6 +62,14 @@ body {
     background-color: #747660;
 }
 
+p {
+    font-family: var(--fonte-texto);
+    padding: 20px;
+    text-indent: 50px;
+    padding-right: 40%;
+    line-height: 2em;
+}
+
 section#block {
     background-color: white;
     max-width: 800px;
@@ -57,6 +79,7 @@ section#block {
 
 section#block > p {
     padding: 20px;
+    text-align: justify;
 }
 
 section#imagem01 {
@@ -94,13 +117,6 @@ section#fim {
     margin: auto;
     height: 300px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
-}
-
-p {
-    font-family: var(--fonte-texto);
-    padding: 20px;
-    text-indent: 50px;
-    padding-right: 40%;
 }
 
 footer {
